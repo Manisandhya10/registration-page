@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel=" stylesheet" href="assignment.css">
+</head>
+<style>
+{ 
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+ }
+ body{
+     height:100vh;
+     width: 100vw;
+     background-image: linear-gradient(to bottom, rgb(229, 229, 241) ,rgb(234, 234, 240),rgb(239, 239, 244));
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ #loginwith{
+    box-shadow: 2px 2px 3px rgb(245, 245, 248);
+     height: 200px;
+     width: 20px;
+     border-radius: 10px;
+     color:rgb(0, 0, 192);
+     padding: 20px;
+
+ }
+     .register_form{
+     /* border:1px solid black; */
+     box-shadow: 10px 10px 20px rgb(30, 30, 136);
+     height: 500px;
+     width: 500px;
+     border-radius: 10px;
+     color:grey;
+     padding: 20px;
+ }
+ #register h1{
+     text-align: center;
+     margin:10px;
+ }
+ .input_ele input{
+     margin:10px;
+     padding: 10px;
+     width: 380px;
+     border-radius: 5px;
+     border-style: none;
+ }
+ .context{
+     display: flex;
+     margin:10px 50px 10px 20px;
+     /* border:1px solid rgb(224, 216, 216); */
+ }
+ .context input{
+     margin:5px;
+ }
+ .context p{
+     margin:5px;
+     font-size: 15px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .register_btn {
+     display: flex;
+     margin:10px 60px 10px 20px ;
+     justify-content: center;
+ }
+ .register_btn button{
+      padding:10px 10px;
+      margin:10px 10px;
+      border-radius: 10px;
+      border-style: none;
+      font-weight: bold;
+      background-color: green;
+ }
+ .register_btn button:hover{
+     background-color: rgb(88, 171, 88);
+ }
+      /* CSS to style the Facebook logo */
+      .facebook-logo {
+          width: 60px; /* Adjust the width as needed */
+          height: 60px; /* Adjust the height as needed */
+          background-color: #1877F2; /* Facebook's blue color */
+          border-radius: 50%; /* To create a circular shape */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 40px
+          
+      }
+      .facebook-f {
+          font-size: 30px;
+          color: white;
+          font-family: 'Arial', sans-serif;
+          font-weight: bold;
+          transform: translateY(-5%);
+      }
+     </style>
+<body>
+    <div class="register_form">
+        <form action="">
+            <h1>Registration Form</h1>
+            <div class="input_ele">
+            <input type="text" placeholder="Firstname">
+            <input type="text" placeholder="Lastname">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password"> 
+            </div>
+           <div class="context">
+            <input type="checkbox">
+            <p>fill the details above the line </p>
+            </div>
+            <div class="context">
+                <input type="checkbox">
+                <p>welcome to the facebook</p>
+                </div>
+             <div class="register_btn">
+             <button>Register</button>    
+            </form>
+        </div>
+    </body>
